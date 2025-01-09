@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Můj dostupný web</title>
+</head>
+<body>
+  <h1>Vítejte na mém dostupném webu!</h1>
+  <p>Tohle je příklad webu vytvořeného na GitHub Pages.</p>
+</body>
+</html>
