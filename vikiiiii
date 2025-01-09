@@ -3,10 +3,82 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Můj dostupný web</title>
+  <meta name="description" content="Příklad přístupného webu na GitHubu">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Můj Dostupný Web</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #4CAF50;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+
+    main {
+      padding: 20px;
+      margin: 10px;
+    }
+
+    footer {
+      background-color: #4CAF50;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+
+    h1 {
+      font-size: 2em;
+    }
+
+    a {
+      color: #4CAF50;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-  <h1>Vítejte na mém dostupném webu!</h1>
-  <p>Tohle je příklad webu vytvořeného na GitHub Pages.</p>
+  <header>
+    <h1>Vítejte na mém dostupném webu!</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>O tomto webu</h2>
+      <p>Tohle je příklad jednoduchého a přístupného webu, který je hostován na GitHub Pages. Web byl navržen tak, aby byl snadno přístupný pro všechny uživatele, včetně těch s postižením.</p>
+    </section>
+
+    <section>
+      <h2>Funkce webu</h2>
+      <ul>
+        <li>Přehledné a snadno čitelné písmo.</li>
+        <li>Dobrá kontrastní kombinace mezi textem a pozadím.</li>
+        <li>Alternativní text pro obrázky a odkazy pro čtečky obrazovky.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Kontaktujte mě</h2>
+      <p>Pokud máte jakékoliv dotazy nebo zpětnou vazbu, můžete mě kontaktovat prostřednictvím e-mailu: <a href="mailto:kontakt@example.com">kontakt@example.com</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Můj Dostupný Web | <a href="https://github.com/username">GitHub</a></p>
+  </footer>
 </body>
 </html>
