@@ -57,10 +57,12 @@
             border: 1px solid #ddd;
             border-radius: 5px;
         }
+        /* Změna: Obrázek zarovnaný na střed */
         .cat-image {
+            display: block;
+            margin: 20px auto;
             max-width: 100%;
             height: auto;
-            margin-top: 20px;
         }
     </style>
 </head>
@@ -94,7 +96,8 @@
         </ul>
     </section>
 
-    <img src=https://blog.akinu.cz/upload/articles/237_articleBig20230427102834.jpg alt="Kočka">
+    <!-- Změna: Přidána třída cat-image -->
+    <img class="cat-image" src="https://blog.akinu.cz/upload/articles/237_articleBig20230427102834.jpg" alt="Kočka">
 
     <footer>
         <p>&copy; 2025 Péče o kočky | Všechna práva vyhrazena</p>
