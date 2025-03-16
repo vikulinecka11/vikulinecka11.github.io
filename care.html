@@ -19,12 +19,12 @@
             color: white;
             padding: 10px 0;
             text-align: center;
-            margin-bottom: 20px; /* Okraje pod header */
+            margin-bottom: 20px;
         }
         nav {
             background-color: #444;
             overflow: hidden;
-            margin-bottom: 20px; /* Okraje pod navigací */
+            margin-bottom: 20px;
         }
         nav a {
             color: white;
@@ -44,12 +44,15 @@
         }
         h1, h2 {
             color: #1eb9b9;
-            margin: 20px 0; /* Okraje nad a pod nadpisy */
-            padding-left:100px; /* Okraj na levé straně nadpisů */
-            padding-right: 100px; /* Okraj na pravé straně nadpisů */
+            margin: 20px 0;
+            text-align: center;
         }
         .section {
             margin-bottom: 20px;
+        }
+        .tips {
+            max-width: 800px; /* Omezíme šířku obsahu */
+            margin: 0 auto; /* Zarovnání na střed */
         }
         .tips ul {
             list-style-type: none;
@@ -58,14 +61,11 @@
         .tips li {
             background-color: #fff;
             margin: 10px 0;
-            padding: 10px;
+            padding: 15px;
             border: 1px solid #ddd;
             border-radius: 5px;
-            margin-bottom: 20px; /* Okraje pod každým tipem */
-            padding-left: 100px; /* Okraj na levé straně seznamových položek */
-            padding-right: 100px; /* Okraj na pravé straně seznamových položek */
+            text-align: left;
         }
-        /* Změna: Obrázek zarovnaný na střed */
         .cat-image {
             display: block;
             margin: 20px auto;
@@ -73,10 +73,6 @@
             height: auto;
         }
     </style>
-</head>
-    <link rel="icon" href="https://www.visakanv.com/blog/wp-content/uploads/2018/04/cropped-favicon-white-sans-serif.png" type="image/x-icon">
-    <!-- nebo pro PNG -->
-    <!-- <link rel="icon" href="cesta/k/obrazku/favicon.png" type="image/png"> -->
 </head>
 <body>
     <header>
@@ -90,7 +86,7 @@
         <a href="kontakt.html">Kontakt</a>
     </nav>
 
-    <section>
+    <section class="tips">
         <h2>Tipy na péči o kočky</h2>
         <ul>
             <li><strong>Výživa:</strong> Kočky potřebují kvalitní krmivo s vysokým obsahem bílkovin, protože jsou přirození masožravci.
@@ -103,12 +99,11 @@
                 Aktivní hraní podporuje jejich fyzickou kondici a předchází nudě či stresu.
                 Zkuste také interaktivní hračky nebo šplhací strom, aby měly více zábavy a prostoru.</li>
             <li><strong>Veterinární péče:</strong> Ujistěte se, že kočka pravidelně chodí na preventivní prohlídky, aby byla zdravá.
-                Veterinár může včas odhalit problémy, jako jsou zubní kameny nebo paraziti.
+                Veterinář může včas odhalit problémy, jako jsou zubní kameny nebo paraziti.
                 Pravidelné očkování a odčervení jsou klíčové pro dlouhý a spokojený život kočky.</li>
         </ul>
     </section>
 
-    <!-- Změna: Přidána třída cat-image -->
     <img class="cat-image" src="https://blog.akinu.cz/upload/articles/237_articleBig20230427102834.jpg" alt="Kočka">
 
     <footer>
