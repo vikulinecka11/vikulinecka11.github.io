@@ -19,12 +19,16 @@
             color: white;
             padding: 10px 0;
             text-align: center;
-            margin-bottom: 20px;
+            margin: 0; /* Odstranění mezer */
+        }
+        h1 {
+            margin: 0; /* Odstranění mezery mezi nadpisem a navigací */
+            padding: 10px 0;
         }
         nav {
             background-color: #444;
             overflow: hidden;
-            margin-bottom: 20px;
+            margin: 0; /* Odstranění mezery mezi headerem a navigací */
         }
         nav a {
             color: white;
@@ -39,20 +43,19 @@
         }
         .container {
             padding: 20px;
-            max-width: 1200px;
+            max-width: 800px;
             margin: 0 auto;
-        }
-        h1, h2 {
-            color: #1eb9b9;
-            margin: 20px 0;
             text-align: center;
         }
-        .section {
-            margin-bottom: 20px;
+        h2 {
+            color: #1eb9b9;
+            text-align: center;
+            margin: 20px 0;
         }
         .tips {
-            max-width: 800px; /* Omezíme šířku obsahu */
-            margin: 0 auto; /* Zarovnání na střed */
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: left;
         }
         .tips ul {
             list-style-type: none;
@@ -64,13 +67,19 @@
             padding: 15px;
             border: 1px solid #ddd;
             border-radius: 5px;
-            text-align: left;
         }
         .cat-image {
             display: block;
             margin: 20px auto;
             max-width: 100%;
             height: auto;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            margin-top: 20px;
         }
     </style>
 </head>
@@ -86,23 +95,25 @@
         <a href="kontakt.html">Kontakt</a>
     </nav>
 
-    <section class="tips">
+    <div class="container">
         <h2>Tipy na péči o kočky</h2>
-        <ul>
-            <li><strong>Výživa:</strong> Kočky potřebují kvalitní krmivo s vysokým obsahem bílkovin, protože jsou přirození masožravci.
-                Dobrý zdroj výživy jim pomáhá udržovat silné svaly a zdravou imunitu.
-                Kromě granulí můžete zvážit i vlhké krmivo, které navíc podporuje hydrataci.</li>
-            <li><strong>Údržba srsti:</strong> Pravidelně kartáčujte kočku, aby její srst zůstala zdravá a bez chuchvalců.
-                Kartáčování také pomáhá odstraňovat uvolněné chlupy a snižuje jejich línání po domě.
-                U dlouhosrstých plemen je péče o srst obzvlášť důležitá, aby se předešlo zacuchání.</li>
-            <li><strong>Hraní:</strong> Kočky potřebují stimulaci a pohyb, pořiďte jim hračky, jako jsou míčky nebo šustící myši.
-                Aktivní hraní podporuje jejich fyzickou kondici a předchází nudě či stresu.
-                Zkuste také interaktivní hračky nebo šplhací strom, aby měly více zábavy a prostoru.</li>
-            <li><strong>Veterinární péče:</strong> Ujistěte se, že kočka pravidelně chodí na preventivní prohlídky, aby byla zdravá.
-                Veterinář může včas odhalit problémy, jako jsou zubní kameny nebo paraziti.
-                Pravidelné očkování a odčervení jsou klíčové pro dlouhý a spokojený život kočky.</li>
-        </ul>
-    </section>
+        <section class="tips">
+            <ul>
+                <li><strong>Výživa:</strong> Kočky potřebují kvalitní krmivo s vysokým obsahem bílkovin, protože jsou přirození masožravci.
+                    Dobrý zdroj výživy jim pomáhá udržovat silné svaly a zdravou imunitu.
+                    Kromě granulí můžete zvážit i vlhké krmivo, které navíc podporuje hydrataci.</li>
+                <li><strong>Údržba srsti:</strong> Pravidelně kartáčujte kočku, aby její srst zůstala zdravá a bez chuchvalců.
+                    Kartáčování také pomáhá odstraňovat uvolněné chlupy a snižuje jejich línání po domě.
+                    U dlouhosrstých plemen je péče o srst obzvlášť důležitá, aby se předešlo zacuchání.</li>
+                <li><strong>Hraní:</strong> Kočky potřebují stimulaci a pohyb, pořiďte jim hračky, jako jsou míčky nebo šustící myši.
+                    Aktivní hraní podporuje jejich fyzickou kondici a předchází nudě či stresu.
+                    Zkuste také interaktivní hračky nebo šplhací strom, aby měly více zábavy a prostoru.</li>
+                <li><strong>Veterinární péče:</strong> Ujistěte se, že kočka pravidelně chodí na preventivní prohlídky, aby byla zdravá.
+                    Veterinář může včas odhalit problémy, jako jsou zubní kameny nebo paraziti.
+                    Pravidelné očkování a odčervení jsou klíčové pro dlouhý a spokojený život kočky.</li>
+            </ul>
+        </section>
+    </div>
 
     <img class="cat-image" src="https://blog.akinu.cz/upload/articles/237_articleBig20230427102834.jpg" alt="Kočka">
 
